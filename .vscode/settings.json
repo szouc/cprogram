@@ -1,0 +1,21 @@
+{
+  "files.associations": {
+    "*.js": "javascript",
+    "stdio.h": "c",
+    "limits.h": "c",
+    "float.h": "c",
+    "math.h": "c",
+    "ctype.h": "c",
+    "stdint.h": "c",
+    "stdbool.h": "c",
+    "inttypes.h": "c",
+    "cstdio": "cpp",
+    "cwchar": "cpp",
+    "type_traits": "cpp",
+    "typeinfo": "cpp",
+    "cstdlib": "c",
+    "cmath": "cpp",
+    "iostream": "cpp"
+  },
+  "python.pythonPath": "/usr/bin/python3"
+}
