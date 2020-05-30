@@ -8,12 +8,13 @@ int main(void)
     char *src = "Hello C language.";
     printf("src at %p: %s\n", src, src);
     char *dest = (char *)malloc(strlen(src) + 1);
-    if(dest == NULL)
+    if (dest == NULL)
         exit(EXIT_FAILURE);
     strcpy(dest, src);
     printf("dest at %p: %s\n", dest, dest);
-    char *inc_dest = (char*)realloc(dest, strlen(src) * 2);
-    if(inc_dest == NULL){
+    char *inc_dest = (char *)realloc(dest, strlen(src) * 2);
+    if (inc_dest == NULL)
+    {
         free(dest);
         exit(EXIT_FAILURE);
     }
