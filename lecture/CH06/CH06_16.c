@@ -5,13 +5,14 @@ int main(void)
 {
     char * point_arr[SIZE] =
         {
-            "Clang",
+            "Clang",  // point_arr[0] = "Clang";
             "Python",
             "Java",
             "C++",
             "Golang"};
+    char *q = point_arr;
     int i;
     for (i = 0; i < SIZE; i++)
-        printf("point_arr[%d] : %s\n", i, point_arr[i]);
+        printf("point_arr[%d] : %s\n", i, q[i]);
     return 0;
 }

@@ -16,8 +16,8 @@ int main(void)
     printf("pname : %s\n", pname);
 
     // *pnoname = 'B';
-    // printf("pnoname : %s\n", pnoname);
-    pnoname = pname;
     printf("pnoname : %s\n", pnoname);
+    // pnoname = pname;
+    // printf("pnoname : %s\n", pnoname);
     return 0;
 }
